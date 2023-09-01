@@ -15,7 +15,7 @@ function createFooter() {
 
   template.innerHTML = `
   <br /><br />
-        <a href="https://www.facebook.com/ifsppirituba"> <img src="/images/facebook.png" width="40" /> </a>
+        <a id="facebook-logo" href="https://www.facebook.com/ifsppirituba"> <img src="/images/facebook.png" width="40" align="left"/> </a>
   <br /><br />
     <footer>
       IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato:
