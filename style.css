@@ -12,8 +12,25 @@ main {
   text-align: center;
 }
 
-#astronaut-image {
-  width: 600px;
-  height: 400px;
-  border-radius: 100%;
+.item-section {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
+
+.image-item {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.image-item img {
+    max-width: 50%;
+    height: auto;
+}
+
+.item-title {
+    font-weight: bold;
+}
+

@@ -10,6 +10,7 @@ function loadHeader(headerFile) {
         });
 }
 
+
 function createFooter() {
   const template = document.createElement('template');
 
