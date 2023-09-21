@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>QUESTAO 3</title>
+    <script type="text/javascript" src="/questao3/questao3.js"></script>
+</head>
+
+<body>
+    <h1>Informações do Aluno</h1>
+
+    <label for="nomeAluno">Nome do aluno:</label>
+    <input type="text" id="nomeAluno"><br>
+
+    <label for="primeiraNota">Primeira nota do aluno:</label>
+    <input type="number" id="primeiraNota" oninput="calcularNotasPonderadas()"><br>
+
+    <label for="segundaNota">Segunda nota do aluno:</label>
+    <input type="number" step="0.01" id="segundaNota" oninput="calcularNotasPonderadas()"><br>
+
+    <p>Nota ponderada 1 (60%): <span id="notaPonderada1"></span></p>
+    <p>Nota ponderada 2 (40%): <span id="notaPonderada2"></span></p>
+    <p>Nota Total: <span id="notaTotal"></span></p>
+    <script>
+    </script>
+</body>
+
+</html>
